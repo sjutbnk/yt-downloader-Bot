@@ -35,42 +35,6 @@
     ```
 *   **Windows**: Скачайте сборку с официального сайта FFmpeg и добавьте путь к бинарным файлам в переменную окружения `PATH`.
 
-## 🚀 Установка и запуск
-
-1.  **Клонируйте репозиторий или перейдите в папку проекта**:
-    ```bash
-    cd yt-bot
-    ```
-
-2.  **Создайте виртуальное окружение и активируйте его**:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # Для Linux/macOS
-    # venv\Scripts\activate   # Для Windows
-    ```
-
-3.  **Установите зависимости**:
-    ```bash
-    pip install --upgrade pip
-    pip install -r requirements.txt
-    ```
-
-4.  **Настройте переменные окружения**:
-    Создайте файл `.env` на основе примера `.env.example`:
-    ```bash
-    cp .env.example .env
-    ```
-    Откройте `.env` и впишите ваш токен бота, полученный от [@BotFather](https://t.me/BotFather):
-    ```env
-    BOT_TOKEN=1234567890:ABCDefGhIJKlmNoPQRsTUVwXyZ
-    DOWNLOAD_DIR=./downloads
-    ```
-
-5.  **Запустите бота**:
-    ```bash
-    python3 bot.py
-    ```
-
 ## 📂 Структура проекта
 
 ```text
